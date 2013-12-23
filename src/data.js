@@ -75,7 +75,8 @@ jQuery.extend({
 
 jQuery.fn.extend({
 	data: function( key, value ) {
-		var i, name, data,
+		var i, name,
+			data = null,
 			elem = this[ 0 ],
 			attrs = elem && elem.attributes;
 
